@@ -25,7 +25,6 @@ body {
 	background-color: #f8f9fa;
 	border-radius: 10px;
 	min-width: 260px;
-	/* max-width: 600px; */
 	padding: 1rem;
 	margin: 1rem;
 	display: flex;
@@ -35,7 +34,8 @@ body {
 }
 .main--title {
 	width: 100%;
-	margin-bottom: 1rem;
+	/* margin-bottom: 1rem; */
+	margin-top: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,11 +45,11 @@ body {
 .main--title__text,
 .fa-fonticons {
 	font-size: 3rem;
-	font-weight: 800;
 }
 .main--line {
 	border-bottom: solid 1px grey;
 	width: 100%;
+	margin: 1rem;
 }
 .main__icons {
 	display: flex;
@@ -114,7 +114,7 @@ i {
 }
 i:hover {
 	color: white;
-	background-color: #1c7bec;
+	background-color:	rgba(27, 142, 255, 1) ;
 }
 /* ////////////////////////// FOOTER ////////////////////////// */
 footer {
