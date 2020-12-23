@@ -24,7 +24,7 @@ body {
 .main {
 	background-color: #f8f9fa;
 	border-radius: 10px;
-	min-width: 240px;
+	min-width: 260px;
 	/* max-width: 600px; */
 	padding: 1rem;
 	margin: 1rem;
@@ -42,7 +42,8 @@ body {
 	flex-wrap: wrap;
 	gap: 1rem;
 }
-.main--title__text, .fa-fonticons {
+.main--title__text,
+.fa-fonticons {
 	font-size: 3rem;
 	font-weight: 800;
 }
@@ -116,13 +117,18 @@ i:hover {
 	background-color: #1c7bec;
 }
 /* ////////////////////////// FOOTER ////////////////////////// */
-footer,
-a {
+footer {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+}
+a,
+.fa-github {
 	font-size: 1.5rem;
 	color: black;
 	margin-bottom: 1rem;
 }
-
+/* ////////////////////////// MEDIA QUERY ////////////////////////// */
 @media (min-width: 600px) {
 	body {
 		flex-direction: column;
