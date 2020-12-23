@@ -42,12 +42,9 @@ body {
 	flex-wrap: wrap;
 	gap: 1rem;
 }
-.main--title__text {
+.main--title__text, .fa-fonticons {
 	font-size: 3rem;
-	font-weight: 400;
-}
-.main--title__icon {
-	font-size: 4rem;
+	font-weight: 800;
 }
 .main--line {
 	border-bottom: solid 1px grey;
